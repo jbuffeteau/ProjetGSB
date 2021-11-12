@@ -58,6 +58,9 @@
     <Compile Include="Vues\frmMedicament.xaml.cs">
       <DependentUpon>frmMedicament.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Vues\frmVisiteur.xaml.cs">
+      <DependentUpon>frmVisiteur.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -71,6 +74,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Vues\frmMedicament.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vues\frmVisiteur.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
